@@ -6,7 +6,11 @@ import Navbar from "@/components/Navbar/Navbar";
 const nunito = Nunito_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Web Agency",
+  title: {
+    absolute: "  ",
+    default: "Web Agency",
+    template: "%s| DZ digital agency",
+  },
   description:
     "Digital web agency,create stunning web application using nextjs,javascript,html5,css3",
 };
