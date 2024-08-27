@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Hero from "@/components/Hero/Hero";
+import Banner from "@/components/Banners/Banner";
 
 export default function Home() {
   useEffect(() => {
@@ -12,12 +13,13 @@ export default function Home() {
       offset: 100,
       duration: 500,
       easing: "ease-in-sine",
-      delay: 100,
+      // delay: 100,
     });
   });
   return (
     <main className="">
       <Hero />
+      <Banner />
     </main>
   );
 }

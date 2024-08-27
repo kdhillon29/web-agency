@@ -10,20 +10,20 @@ const Hero = () => {
       <div className=" space-y-4 md:space-y-8 w-full md:w-3/4">
         <h1
           data-aos="fade-up"
-          data-aos-delay="300"
+          data-aos-delay="100"
           className=" text-5xl w-full md:w-3/4 font-bold leading-tight"
         >
           Grow Your Business With Us
           <BsArrowRightCircle className=" inline ml-5" />
         </h1>
-        <p data-aos="fade-up" data-aos-delay="600" className=" w-full md:w-3/4">
+        <p data-aos="fade-up" data-aos-delay="200" className=" w-full md:w-3/4">
           Goal oriented websites. Sell more, get more leads, and present
           yourself to the whole world as you only imagined until now. We care
           about.
         </p>
         <button
           data-aos="fade-up"
-          data-aos-delay="800"
+          data-aos-delay="400"
           className=" bg-primary px-6 py-2 shadow-[5px_5px_0px_0px_rgba(0,0,0)] rounded-md cursor-pointer"
         >
           Get Started
