@@ -5,6 +5,8 @@ import {
   FaSlack,
   FaTrello,
   FaAmazonPay,
+  FaHtml5,
+  FaWix,
 } from "react-icons/fa";
 import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
 import Slider from "react-slick";
@@ -26,14 +28,9 @@ const companiesData = [
     name: "Nextjs",
   },
   {
-    id: 7,
-    icon: <FaSlack size={28} />,
-    name: "slack",
-  },
-  {
     id: 4,
-    icon: <FaAmazonPay size={28} />,
-    name: "AmazonPay",
+    icon: <FaHtml5 size={28} />,
+    name: "HTML5",
   },
   {
     id: 5,
@@ -44,6 +41,16 @@ const companiesData = [
     id: 6,
     icon: <FaPaypal size={28} />,
     name: "paypal",
+  },
+  {
+    id: 7,
+    icon: <FaSlack size={28} />,
+    name: "slack",
+  },
+  {
+    id: 8,
+    icon: <FaWix size={28} />,
+    name: "Wix",
   },
 ];
 
