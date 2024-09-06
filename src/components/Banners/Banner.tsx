@@ -59,7 +59,7 @@ const Banner = () => {
     dots: false,
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     arrows: false,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -77,17 +77,17 @@ const Banner = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlides: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlides: 2,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlides: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlides: 2,
         },
       },
     ],
